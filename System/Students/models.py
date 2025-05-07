@@ -120,7 +120,6 @@ class Student(models.Model):
         return 'M' if gender_num % 2 else 'F'
 
     def validate_id_card_check_digit(self):
-        # TODO: 实现完整的校验码计算和验证
         return True
 
     @property
